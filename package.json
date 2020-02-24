@@ -1,0 +1,35 @@
+{
+  "name": "botdblocal",
+  "version": "0.1.0",
+  "description": "create local dynamodb and tables",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config  ./jest.config.js"
+  },
+  "keywords": [
+    "zoom",
+    "dynamodb"
+  ],
+  "bin": {
+    "botdblocal": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-jest": "^25.1.0",
+    "babel-plugin-rewire": "^1.2.0",
+    "eslint": "^5.16.0",
+    "jest": "^25.1.0",
+    "rewire": "^4.0.1",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "@hapi/joi": "15.1.1",
+    "commander": "^4.1.0",
+    "cross-spawn": "^7.0.1",
+    "dynamodb-localhost": "0.0.9",
+    "serverless-dynamodb-local": "0.2.37",
+    "dynogels": "^9.1.0",
+    "fs-extra": "^8.1.0"
+  }
+}
